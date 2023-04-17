@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tIPwfRKfW/bfPZJtnTcWEAu7LJlJohLd2x2oAP1w5SU=",
+  "Hash": "pyV26s38+crrCiy0VKoT8ciY3gRROwMMCRdIAx6TWRg=",
   "Source": "client",
   "BasePath": "_content/client",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\client.styles.css",
+      "SourceId": "client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/client",
+      "RelativePath": "client.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\client.styles.css"
+    },
+    {
+      "Identity": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\client.bundle.scp.css",
+      "SourceId": "client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/client",
+      "RelativePath": "client.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\client.bundle.scp.css"
+    },
     {
       "Identity": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\wwwroot\\css\\pages\\login\\login-1.css",
       "SourceId": "client",

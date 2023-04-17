@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\client.bundle.scp.css"
+    },
+    {
       "Id": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\wwwroot\\css\\pages\\login\\login-1.css",
       "PackagePath": "staticwebassets\\css\\pages\\login\\login-1.css"
     },
