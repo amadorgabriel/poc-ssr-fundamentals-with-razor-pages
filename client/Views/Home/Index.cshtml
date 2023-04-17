@@ -1,8 +1,11 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model client.Views.Home.IndexModel
+
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">PokéList</h1>
+    <p>Listagem de pokémons com a <a href="https://pokeapi.co/">pokéAPI</a>.</p>
+
+     <partial name="Components/Datatable/Default" />
 </div>

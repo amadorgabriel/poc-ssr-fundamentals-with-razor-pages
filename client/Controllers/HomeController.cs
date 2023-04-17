@@ -18,7 +18,7 @@ namespace client.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Proof()
         {
             return View();
         }
