@@ -24,6 +24,8 @@
 
     <!--end::Global Theme Styles-->
     <!--begin::Layout Themes(used by all pages)-->
+    <link rel="stylesheet" href="~/client.styles.css" asp-append-version="true">
+
     <!--end::Layout Themes-->
     <link rel="shortcut icon" href="~/media/logos/favicon.ico" />
 </head>
@@ -43,11 +45,9 @@
             <!--begin::Wrapper-->
             <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
 
-                @{
-                    Html.RenderPartial("_Header");
-                    Html.RenderPartial("_Subheader");
-                }
+                <partial name="Header" />
                 
+                <partial name="Subheader" />                
 
                 <!--[html-partial:include:{"file":"partials/_subheader.html"}]/-->
                 <!--begin::Content-->
@@ -60,9 +60,7 @@
                 <!--end::Content-->
                 <!--[html-partial:include:{"file":"partials/_footer.html"}]/-->
 
-                @{
-                    Html.RenderPartial("_Footer");
-                }
+                <partial name="Footer" />
 
             </div>
 
