@@ -1,0 +1,14 @@
+﻿@page "Favorite"
+@model client.Views.Favorite.IndexModel
+
+<div class="text-center">
+    <h1 class="display-4">Meus favoritos</h1>
+    <p>Listagem de favoritos com a <a href="https://jsonplaceholder.typicode.com/">jsonplaceholder</a>.</p>
+
+    <div class="pt-4">
+        @await Component.InvokeAsync("Callout", new {message = "Listagem de dados renderizada pelo Client-Side."})
+    </div>
+
+</div>
+
+
