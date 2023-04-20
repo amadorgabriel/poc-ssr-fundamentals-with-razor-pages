@@ -1,24 +1,22 @@
 ﻿using client.Models;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace client.Controllers
 {
-    public class HomeController : Controller
+    public class ProofController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<ProofController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public ProofController(ILogger<ProofController> logger)
         {
             _logger = logger;
         }
 
-        // /[Controller]/[ActionName]/[Parameters]
-        // Get: /Home/{action=Index}
+        // GET: /Proof/
         public IActionResult Index()
         {
-            ViewData["Title"] = "Home";
+            ViewData["Title"] = "POC";
 
             return View();
         }
