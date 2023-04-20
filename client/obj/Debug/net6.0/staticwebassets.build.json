@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pyV26s38+crrCiy0VKoT8ciY3gRROwMMCRdIAx6TWRg=",
+  "Hash": "Hcchjpr6jF3jBXz79ipY5rBFpm4vlMPqZL9m5fm9qMw=",
   "Source": "client",
   "BasePath": "_content/client",
   "Mode": "Default",
@@ -2735,6 +2735,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\logos\\logo-7.svg"
+    },
+    {
+      "Identity": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\wwwroot\\media\\logos\\ultraball.svg",
+      "SourceId": "client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\wwwroot\\",
+      "BasePath": "_content/client",
+      "RelativePath": "media/logos/ultraball.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\logos\\ultraball.svg"
     },
     {
       "Identity": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\wwwroot\\media\\misc\\bg-1.jpg",

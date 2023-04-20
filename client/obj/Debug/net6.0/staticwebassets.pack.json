@@ -637,6 +637,10 @@
       "PackagePath": "staticwebassets\\media\\logos\\logo-7.svg"
     },
     {
+      "Id": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\wwwroot\\media\\logos\\ultraball.svg",
+      "PackagePath": "staticwebassets\\media\\logos\\ultraball.svg"
+    },
+    {
       "Id": "C:\\_git\\job\\plat\\pocs\\poc-ssr-fundamentals-with-razor-pages\\client\\wwwroot\\media\\misc\\bg-1.jpg",
       "PackagePath": "staticwebassets\\media\\misc\\bg-1.jpg"
     },

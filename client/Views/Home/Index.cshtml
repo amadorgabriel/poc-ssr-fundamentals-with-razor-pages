@@ -1,11 +1,24 @@
-﻿@page
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+﻿@page "Home"
 @model client.Views.Home.IndexModel
-
+@using client.ViewComponents.Callout;
 
 <div class="text-center">
-    <h1 class="display-4">PokéList</h1>
+    <h1 class="display-4">Minha Lista</h1>
     <p>Listagem de pokémons com a <a href="https://pokeapi.co/">pokéAPI</a>.</p>
 
-     <partial name="Components/Datatable/Default" />
+    <div class="pt-4">
+        @await Component.InvokeAsync("Callout", new {message = "Listagem de dados renderizada pelo Server-Side."})
+
+        <partial name="Components/Datatable/Default" />
+    </div>
+       
 </div>
+
+
+@section scripts {
+    <script type="text/javascript">
+
+        //ajax call
+        //alert("test");
+    </script>
+}

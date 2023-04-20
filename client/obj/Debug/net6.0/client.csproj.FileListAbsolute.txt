@@ -243,5 +243,5 @@ C:\_git\job\plat\pocs\poc-ssr-fundamentals-with-razor-pages\client\bin\Debug\net
 C:\_git\job\plat\pocs\poc-ssr-fundamentals-with-razor-pages\client\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\_git\job\plat\pocs\poc-ssr-fundamentals-with-razor-pages\client\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\_git\job\plat\pocs\poc-ssr-fundamentals-with-razor-pages\client\obj\Debug\net6.0\client.csproj.CopyComplete
-C:\_git\job\plat\pocs\poc-ssr-fundamentals-with-razor-pages\client\obj\Debug\net6.0\scopedcss\Views\Proof\Proof.cshtml.rz.scp.css
 C:\_git\job\plat\pocs\poc-ssr-fundamentals-with-razor-pages\client\obj\Debug\net6.0\scopedcss\projectbundle\client.bundle.scp.css
+C:\_git\job\plat\pocs\poc-ssr-fundamentals-with-razor-pages\client\obj\Debug\net6.0\scopedcss\Views\Proof\Index.cshtml.rz.scp.css
