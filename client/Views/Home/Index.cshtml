@@ -19,16 +19,18 @@
         @*<partial name="Components/Datatable/Default" />*@
 
         <ul id="fake-id-pokelist"></ul>
-    </div>
-
-
-       
+    </div
 </div>
 
 
 @section scripts {
-    <script type="text/javascript">
-        var pokemons = []
+    <script type="text/babel">
+        type Pokemon = {
+            name: string,
+            url: string
+        }
+
+        var pokemons: Pokemon[] = []
         var ulItem = document.querySelector("#fake-id-pokelist")
 
         async function getAllPokemons() {
@@ -42,14 +44,13 @@
 
             if(pokemons.length === 0) return
 
-            console.log(pokemons)
-
             pokemons.map(item => {
                 let li = document.createElement('li')
                 li.innerHTML = item.name
 
                 ulItem.appendChild(li)
             })
-        
+        })
+
     </script>
 }
