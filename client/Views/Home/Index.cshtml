@@ -1,10 +1,6 @@
 ﻿@page "Home"
 @model client.Views.Home.IndexModel
 
-@{
-    List<Pokemon> Pokemons = new();
-}
-
 <div>
     <div class="text-center pb-4">
         <h1 class="display-4">Minha Lista</h1>
@@ -39,8 +35,6 @@
         async function getAllPokemons() {
             await fetch("https://pokeapi.co/api/v2/pokemon").then(res => res.json()).then(data => {
                 pokemons = data.results
-
-                @Pokemons = data.results
             })
         } 
         
