@@ -22,10 +22,10 @@ namespace client.Controllers
         }
 
         // GET: /Favorite/Details/
-        public IActionResult Details() 
-        { 
-            return View(); 
-        }
+        //public IActionResult Details()
+        //{
+        //    return View();
+        //}
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

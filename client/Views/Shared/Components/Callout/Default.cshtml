@@ -3,7 +3,9 @@
 <div class="card card-custom gutter-b">
 	<div class="card-body d-flex align-items-center py-5 py-lg-10">
 		
-		<partial name="Components/Icon/Default" />
+		@*<partial name="Shared/Components/Icon/Default" model="new(_" />*@		
+		@await Component.InvokeAsync("Icon", 5)
+
 
 		<!--begin::Description-->
 		<div class="m-0 text-dark-50 font-weight-bold font-size-lg">

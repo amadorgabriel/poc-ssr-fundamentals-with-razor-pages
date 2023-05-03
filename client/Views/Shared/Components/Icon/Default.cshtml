@@ -1,13 +1,6 @@
 ﻿@model client.Models.IconViewModel
 
 <div class="d-flex flex-center position-relative ml-5 mr-15 ml-lg-9">
-
-	@if( Model.GetType == "" )
-	{
-		
-	}
-
-
     <span class="svg-icon svg-icon-5x svg-icon-primary position-absolute opacity-15">
 		<!--begin::Svg Icon | path:assets/media/svg/icons/Layout/Layout-polygon.svg-->
 		<svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 70 70" fill="none">
@@ -18,7 +11,7 @@
 		<!--end::Svg Icon-->
 	</span>
 		
-	<span class=@($"svg-icon svg-icon-{@Model.GetType}x svg-icon-primary position-absolute")>
+	<span class="svg-icon svg-icon-5x svg-icon-primary position-absolute">
 		<!--begin::Svg Icon | path:assets/media/svg/icons/Tools/Compass.svg-->
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

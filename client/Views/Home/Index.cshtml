@@ -14,12 +14,14 @@
     <div>
         @await Component.InvokeAsync("Callout", new {message = "Listagem de dados renderizada pelo Server-Side."})
 
-
+         
         @*Enable Data Table*@
         @*<partial name="Components/Datatable/Default" />*@
 
-        <ul id="fake-id-pokelist"></ul>
-    </div
+        <ul id="fake-id-pokelist">
+            <p id="fake-id-loading">Carregando..</p>
+        </ul>
+    </div>
 </div>
 
 
@@ -32,17 +34,26 @@
 
         var pokemons: Pokemon[] = []
         var ulItem = document.querySelector("#fake-id-pokelist")
+        var loadingPItem = document.querySelector("#fake-id-loading")
 
         async function getAllPokemons() {
             await fetch("https://pokeapi.co/api/v2/pokemon").then(res => res.json()).then(data => {
                 pokemons = data.results
+
+                @Pokemons = data.results
             })
         } 
         
         window.addEventListener('load', async () => {
             await getAllPokemons()
 
-            if(pokemons.length === 0) return
+            
+            if(pokemons.length === 0) {
+                loadingPItem.innerHTML = "Não foi possível carregar a lista ;("
+                return
+            }
+
+            ulItem.removeChild(loadingPItem)
 
             pokemons.map(item => {
                 let li = document.createElement('li')
